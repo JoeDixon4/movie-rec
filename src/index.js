@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom';
+import { Routes, Route, BrowserRouter} from 'react-router-dom';
 
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Recommend from "./pages/Recommend";
 import View from "./pages/View";
 import NoPage from "./pages/NoPage";
-import Navbar from './Navbar';
 
 function SayHello(){
     alert('You clicked me!')
